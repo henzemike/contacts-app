@@ -6,11 +6,11 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-contact = Contact.new(first_name: "Jay", last_name: "Cutler", email: "jaycutler@gmail.com", phone_number: "222-888-5690")
+contact = Contact.new(first_name: "Jay", middle_name: "Don", last_name: "Cutler", email: "jaycutler@gmail.com", phone_number: "222-888-5690")
 contact.save
 
-contact = Contact.new(first_name: "Dave", last_name: "Smith", email: "davesmith@gmail.com", phone_number: "555-777-7777")
+contact = Contact.new(first_name: "Dave", middle_name: "John", last_name: "Smith", email: "davesmith@gmail.com", phone_number: "555-777-7777")
 contact.save
 
-contact = Contact.new(first_name: "Mary", last_name: "Larsen", email: "marylarsen@gmail.com", phone_number: "555-744-7779")
+contact = Contact.new(first_name: "Mary", middle_name: "Lou", last_name: "Larsen", email: "marylarsen@gmail.com", phone_number: "555-744-7779")
 contact.save

@@ -7,11 +7,17 @@ Rails.application.routes.draw do
     # call all method
     get "/contacts" => "contacts#index"
 
+    #create
+    post "/contacts" => "contacts#create"
+
     #find method
     get "/contacts/:id" => "contacts#show"
 
     # create method
     patch "/contacts/:id" => "contacts#update"
+
+    # destroy
+    delete "/contacts/:id" => "contacts#destroy"
 
 
   end
